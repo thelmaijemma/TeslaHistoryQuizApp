@@ -1,0 +1,61 @@
+* {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+script {
+  display: none;
+}
+
+body {
+  background: url(https://images.pexels.com/photos/258083/pexels-photo-258083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+
+input {
+  margin: 10px;
+
+}
+
+button{
+  color: navy;
+}
+
+.next-question{
+  margin: auto;
+}
+
+.question{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+title {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.answers label {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+
+.radioControl{ 
+  height: 1em; 
+  /*these em - apply w/h to graphics, not text*/
+ width: 1em;}
